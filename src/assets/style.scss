@@ -1,0 +1,80 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+.side-bar {
+  height: 100vh;
+  background-color: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.container {
+  background-color: #fff;
+  padding: 1rem;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+.settingsPopup {
+  width: 350px;
+}
+
+.ant-form-item {
+  margin-bottom: 10px;
+}
+
+.mt-3 {
+  margin-top: 10px;
+}
+
+.mt-4 {
+  margin-top: 15px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.d-block {
+  display: block;
+}
+
+.form-group {
+  background-color: #fefefe;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.ant-input-number {
+  width: 100% !important;
+}
+.form-element {
+  padding: 15px 30px;
+  background-color: #fefefe;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+.ant-form-item-label label {
+  width: 100% !important;
+}
+.label-with-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .anticon {
+    font-size: 20px;
+    color: #666;
+    margin-left: 10px;
+  }
+}
